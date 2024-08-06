@@ -6,6 +6,9 @@ import Propose from './Propose';
 import Invest from './Invest'; 
 import Navbar from './Navbar'
 import Hero from './Hero';
+import Footer from './Footer'
+
+
 
 const AppRoutes = () => {
   return (
@@ -16,6 +19,7 @@ const AppRoutes = () => {
         <Navbar />
         <Hero />
         <ProposerInvestorCards />
+        <Footer/>
         </>} />
         <Route path="/propose" element={<Propose />} />
         <Route path="/invest" element={<Invest />} />

@@ -7,6 +7,7 @@ import ProposerInvestorCards from './Cards'
 
 
 
+
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <ProposerInvestorCards/>
+    <Footer/>
     </>
   )
 }
